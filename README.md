@@ -6,7 +6,7 @@ Katalon Studio, on the other hand, is a robust test automation tool that simplif
 
 **Setting Up Your Environment**
 
-    Before diving into mobile app automation for Flutter with Katalon Studio, you'll need to set up your environment:
+Before diving into mobile app automation for Flutter with Katalon Studio, you'll need to set up your environment:
 
 1. Install Katalon Studio
 
