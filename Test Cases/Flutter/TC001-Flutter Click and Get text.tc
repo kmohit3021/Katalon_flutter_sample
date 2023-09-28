@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Flutter Click and Get text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d894d68d-d0ca-4174-afd9-23335c74c905</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c837e00a-63d8-433b-bdf1-22649e3b3528</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c837e00a-63d8-433b-bdf1-22649e3b3528</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

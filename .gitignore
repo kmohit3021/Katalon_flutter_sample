@@ -1,0 +1,14 @@
+.gradle
+bin
+Reports
+Libs
+output
+build
+.classpath
+.project
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+.cache/

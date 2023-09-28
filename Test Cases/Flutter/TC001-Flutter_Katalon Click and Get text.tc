@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Flutter_Katalon Click and Get text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6d7590c-1733-4c96-9420-62fbe3bd1d9f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f42d8d29-fb2d-4e90-add2-be2207f6acd1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f42d8d29-fb2d-4e90-add2-be2207f6acd1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

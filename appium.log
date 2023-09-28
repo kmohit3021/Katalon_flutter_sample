@@ -1,0 +1,71 @@
+[Appium] Welcome to Appium v2.1.3
+[Appium] Non-default server args:
+[Appium] { loglevel: [32m'info'[39m, port: [33m59508[39m }
+[Appium] Attempting to load driver xcuitest...
+[Appium] Attempting to load driver uiautomator2...
+[Appium] Attempting to load driver flutter...
+[Appium] Appium REST http interface listener started on http://0.0.0.0:59508
+[Appium] You can provide the following URLs in your client code to connect to this server:
+[Appium] 	http://127.0.0.1:59508/ (only accessible from the same host)
+[Appium] 	http://192.168.1.110:59508/
+[Appium] Available drivers:
+[Appium]   - xcuitest@4.24.3 (automationName 'XCUITest')
+[Appium]   - uiautomator2@2.18.0 (automationName 'UiAutomator2')
+[Appium]   - flutter@1.14.3 (automationName 'Flutter')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m --> GET /status
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /status 200 19 ms - 110
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m --> GET /status
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /status 200 4 ms - 110
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m --> POST /session
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:udid":"00008030-001E2DA81A10C02E","appium:newCommandTimeout":1800,"appium:wdaLocalPort":59750,"appium:bundleId":"com.urpay.consumer","appium:deviceName":"Mohit’s iPhone","platformName":"iOS","appium:automationName":"XCUITest","appium:realDeviceLogger":"/Applications/Katalon Studio ObjectIssue.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:platformVersion":"16.6.1","appium:deviceId":""},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.urpay.consumer","appium:deviceId":"","appium:deviceName":"Mohit’s iPhone","appium:newCommandTimeout":1800,"appium:platformVersion":"16.6.1","appium:realDeviceLogger":"/Applications/Katalon Studio ObjectIssue.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008030-001E2DA81A10C02E","appium:waitForAppScript":"true;","appium:wdaLocalPort":59750,"platformName":"ios"}]}}
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mohit/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@4359][0m Appium v2.1.3 creating new XCUITestDriver (v4.24.3) session
+[38;5;16m[AppiumDriver@4359][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@4359][0m Appium's BaseDriver version is 9.3.20
+[38;5;16m[AppiumDriver@4359][0m XCUITestDriver's BaseDriver version is 8.7.1
+[38;5;32m[XCUITestDriver@5c94][0m The following capabilities were provided, but are not recognized by Appium:
+[38;5;32m[XCUITestDriver@5c94][0m   deviceId
+[38;5;32m[XCUITestDriver@5c94][0m   realDeviceLogger
+[38;5;32m[XCUITestDriver@5c94][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Session created with session id: 5e51243e-8f89-477d-93b0-1ea870e261c5
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Determining device to run tests on: udid: '00008030-001E2DA81A10C02E', real device: true
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Normalized platformVersion capability value '16.6.1' to '16.6'
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Using WDA path: '/Users/mohit/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Using WDA agent: '/Users/mohit/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Setting up real device
+[38;5;64m[DevCon Factory][0m Requesting connection for device 00008030-001E2DA81A10C02E on local port 59750, device port 59750
+[38;5;64m[DevCon Factory][0m Successfully requested the connection for 00008030-001E2DA81A10C02E:59750
+[38;5;80m[WD Proxy][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m WebDriverAgent does not need a cleanup. The sources are up to date (1682329516923 >= 1682329516923)
+[38;5;32m[XCUITestDr[Appium] Received SIGTERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
+um-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -showBuildSettings' exited with code 69
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m WebDriverAgent does not need a cleanup. The sources are up to date (1682329516923 >= 1682329516923)
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m Shutting down sub-processes
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;32m[XCUITestDriver@5c94 (5e51243e)][0m socket hang up
+[38;5;64m[DevCon Factory][0m Releasing connections for 00008030-001E2DA81A10C02E device on any port number
+[38;5;64m[DevCon Factory][0m Found cached connections to release: ["00008030-001E2DA81A10C02E:59750"]
+[38;5;64m[DevCon Factory][0m Releasing the listener for '00008030-001E2DA81A10C02E:59750'
+[38;5;96m[iProxy@000080[Appium] Received SIGTERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
+TERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
