@@ -61,6 +61,7 @@ Now that your environment is set up, it's time to start writing automated tests 
     Assertions help you identify issues and regressions in your app.
 
 **How to run the existing sample project**
+
 **Prerequisite**: Install the appium 2.x
 
 1. Start the appium server.
