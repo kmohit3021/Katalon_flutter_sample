@@ -4,7 +4,7 @@ Flutter is a popular open-source framework developed by Google for building nati
 
 Katalon Studio, on the other hand, is a robust test automation tool that simplifies the process of creating and executing automated tests for various applications, including mobile apps. It provides a user-friendly interface and supports both Android and iOS platforms, making it an ideal choice for automating Flutter app testing.
 
-** Setting Up Your Environment
+**Setting Up Your Environment**
 
 Before diving into mobile app automation for Flutter with Katalon Studio, you'll need to set up your environment:
 
@@ -20,7 +20,7 @@ For iOS app testing, configure an iOS simulator or connect an iOS device (requir
 4. Install Flutter Driver
 Flutter Driver is a package that allows interaction with Flutter apps during testing. Add it to your Flutter project by following the official documentation: https://flutter.dev/docs/cookbook/testing/integration/introduction.
 
-** Writing Automated Tests for Flutter Apps
+**Writing Automated Tests for Flutter Apps**
 
 Now that your environment is set up, it's time to start writing automated tests for your Flutter app using Katalon Studio. Follow these steps:
 
@@ -38,7 +38,7 @@ Katalon Studio will execute the test steps and report the results, including pas
 Ensure that your test scripts include assertions to verify that your Flutter app behaves as expected.
 Assertions help you identify issues and regressions in your app.
 
-** Benefits of Using Katalon Studio for Flutter App Automation
+**Benefits of Using Katalon Studio for Flutter App Automation**
 
 1. Cross-Platform Support
 Katalon Studio supports both Android and iOS platforms, allowing you to automate tests for Flutter apps on multiple devices and operating systems.
@@ -52,7 +52,7 @@ Katalon Studio can be integrated with popular CI/CD (Continuous Integration/Cont
 4. Test Reports and Analytics
 Katalon Studio provides detailed test reports and analytics, making it easy to identify issues and track the quality of your Flutter app over time.
 
-** Conclusion
+**Conclusion**
 
 Mobile app automation for Flutter using Katalon Studio is a powerful combination that simplifies the testing process and ensures the reliability and quality of your Flutter applications. By following the steps outlined in this guide, you can set up your testing environment, write automated tests, and seamlessly integrate mobile app automation into your Flutter development workflow.
 
